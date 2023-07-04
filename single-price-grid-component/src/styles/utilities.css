@@ -1,0 +1,29 @@
+.font-bold {
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.white-text {
+    color: var(--color-white)
+}
+.bright-yellow-text {
+    color: var(--primary-color-bright-yellow);
+}
+
+.gray-text {
+    color: var(--neutral-color-grayish-blue);
+}
+
+.cyan-text {
+    color: var(--primary-color-cyan);
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+

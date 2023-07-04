@@ -1,4 +1,5 @@
 @import "/src/styles/settings.css";
+@import "/src/styles/utilities.css";
 
 html {
     height: 100%;
@@ -9,7 +10,7 @@ body {
     flex-direction: column;    
     justify-content:space-around;
     align-items: center;
-    background: gainsboro;
+    background: var(--neutral-color-light-gray);
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -20,6 +21,13 @@ body {
 .container {
     display: grid;
     margin: 100px;
+    
+
+    border-radius: 7px;
+  
+    overflow: hidden;
+
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 
 }
 
@@ -39,6 +47,25 @@ body {
 }
 
 .box {
-    padding: 50px;
-    border: 2px solid tomato;
+
+    display: flex;
+    flex-direction: column;
+    
+    padding: 25px;
+    
+    gap: 10px;;
+    
+}
+
+.container section:nth-child(1){
+    background: var(--color-white);
+    
+}
+.container section:nth-child(2){
+    background: var(--primary-color-cyan);
+
+}
+.container section:nth-child(3){
+    background: var(--color-fountain-blue);
+
 }
