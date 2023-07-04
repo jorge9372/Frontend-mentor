@@ -1,0 +1,9 @@
+ :root {
+     --primary-color-cyan: hsl(203, 44%, 93%);
+     --primary-color-bright-yellow: hsl(71, 73%, 54%);
+     --neutral-color-light-gray:  hsl(204, 43%, 93%);
+     --natutal-color-grayish-blue:  hsl(218, 22%, 67%);
+
+     --breakpoint-desktop: 1440px;
+     --breakpoint-mobile: 375px;
+ }
