@@ -119,11 +119,5 @@ button {
         gap: 30px;
     }
 
-    .text-info-set {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-
-
+   
 }
